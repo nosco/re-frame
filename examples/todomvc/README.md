@@ -29,8 +29,7 @@ really required to get the job done. So lean and minimal is no longer a goal.
    lein do clean, figwheel
    ```
 
-5. Run
-   You'll have to wait for step 4 to do its compile, and then:
+5. You'll have to wait for step 4 to do its compile, and then:
    ```
    open http://localhost:3450
    ```
@@ -67,7 +66,7 @@ src
 ├── db.cljs           <--- data related  (data layer)
 ├── subs.cljs         <--- subscription handlers  (query layer)
 ├── views.cljs        <--- reagent  components (view layer)
-└── events.cljs     <--- event handlers (control/update layer)
+└── events.cljs       <--- event handlers (control/update layer)
 ```
 
 ## Further Notes
